@@ -1,0 +1,19 @@
+footer{
+    color: rgb(216, 234, 250);
+    background-color: rgb(10, 7, 241);
+}
+textarea{
+    resize: none;
+}
+
+#form__checkbox input + span{
+    display: none;
+}
+
+#form__checkbox input:checked + span{
+    display: block;
+}
+
+#table__productos{
+font-size: large;
+}
