@@ -11,3 +11,25 @@ c
 #table__productos{
 font-size: large;
 }
+
+main{
+    h1{
+        background: rgb(8,0,145);
+        background: radial-gradient(circle, rgba(8,0,145,1) 0%, rgba(4,37,119,0.8995973389355743) 27%, rgba(48,159,181,1) 100%);
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    form{
+        div{
+            textarea{
+                resize: none;
+            }       
+            input:focus{
+                background-color: red;
+               
+            }
+        }
+    
+    }
+}
