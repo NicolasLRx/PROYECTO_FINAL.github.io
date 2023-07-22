@@ -1,0 +1,36 @@
+h1 {
+    background: rgb(8, 0, 145);
+    background: radial-gradient(circle, rgba(8, 0, 145, 1) 0%, rgba(4, 37, 119, 0.8995973389355743) 27%, rgba(48, 159, 181, 1) 100%);
+    color: whitesmoke;
+    text-align: center;
+}
+
+form {
+    div {
+        textarea {
+            resize: none;
+        }
+        label{
+            width: 150px;
+        }
+        .form__input__text{
+            width: 250px;
+        }
+    
+        .form__input__text:focus {
+            width: 90vh;
+            margin-left: 15px;
+           font-size: 30px;
+           transform:scale(1);
+        }
+    }
+    .btn-primary:hover{
+        background-color: green;
+        cursor:pointer;
+        /* transform: translateY(15px); */
+        transform: translateX(50px);
+        transform: scale(1.5);
+    }
+
+    
+}
