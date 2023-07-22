@@ -1,5 +1,19 @@
+main h1 {
+  background: rgb(8, 0, 145);
+  background: radial-gradient(circle, rgb(8, 0, 145) 0%, rgba(4, 37, 119, 0.8995973389) 27%, rgb(48, 159, 181) 100%);
+  color: whitesmoke;
+  text-align: center;
+}
+main form textarea {
+  resize: none;
+}
+main form input {
+  background-color: black;
+}
+
 footer {
-  background-color: blue;
+  background: rgb(8, 0, 145);
+  background: linear-gradient(90deg, rgb(8, 0, 145) 0%, rgb(9, 41, 121) 27%, rgb(48, 159, 181) 100%);
   color: whitesmoke;
 }
 footer .footer__datos {

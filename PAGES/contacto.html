@@ -11,7 +11,11 @@
     rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
     crossorigin="anonymous" />
-  <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="../SASS/main.css" />
   <link rel="icon" href="../IMAGES/logo_biofarma.jpg">
 
     <title>Contacto</title>
@@ -57,7 +61,7 @@
       </nav>
     </head>
 <main>
-    <h1>Contactenos</h1>
+    <h1 class="animate__animated animate__slideInLeft">Contactenos</h1>
     <form>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Ingrese su Mail</label>
@@ -73,11 +77,10 @@
         <label for="exampleFormControlTextarea1" class="form-label">Ingrese su cunsulta</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <div class="mb-3 form-check" id="form__checkbox">
+      <div class="mb-3 form-check" class="form__checkbox">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <span>Gracias!</span>
-        <label class="form-check-label" for="exampleCheck1">Desea Subscribirse a nuestro newsletter?</label> 
         
+        <label class="form-check-label" for="exampleCheck1">Desea Subscribirse a nuestro newsletter?</label> 
       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
     </form>

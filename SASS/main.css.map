@@ -1,1 +1,1 @@
-{"version":3,"sources":["layaout/_footer.scss","main.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,iBAAA;ACCJ;ADCG;EACC,aAAA;ACCJ;ADAI;EACI,kBAAA;ACER","file":"main.css"}
+{"version":3,"sources":["layaout/_main.scss","main.css","layaout/_footer.scss"],"names":[],"mappings":"AACI;EACI,0BAAA;EACA,kHAAA;EACA,iBAAA;EACA,kBAAA;ACAR;ADKQ;EACI,YAAA;ACHZ;ADKQ;EACI,uBAAA;ACHZ;;ACXA;EACI,0BAAA;EACA,kGAAA;EACA,iBAAA;ADcJ;ACZG;EACC,aAAA;ADcJ;ACbI;EACI,kBAAA;ADeR","file":"main.css"}

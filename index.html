@@ -11,12 +11,16 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./SASS/main.css" />
     <link rel="icon" href="./IMAGES/logo_biofarma.jpg">
     <title>Biofarma S.A.</title>
   </head>
   <body>
-    <head>
+    <header>
      <nav class="navbar navbar-light" style="background-color: #fff">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"
@@ -50,7 +54,7 @@
         </div>
       </div>
     </nav>
-  </head>
+  </header>
   <main>
     <div
       id="carouselExampleCaptions"
@@ -139,72 +143,74 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </main>
-    <div class="text-center">
-        <h1 class="mx-auto">Noticias</h1>
+
+ 
+      <h1 class="animate__animated animate__fadeIn">Noticias</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./IMAGES/rumiantes.jpeg"
+            class="card-img-top"
+            alt="Rumiantes"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Rumiantes</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Deserunt ad, eveniet libero blanditiis, praesentium nemo rem
+              architecto ratione aspernatur unde dicta fugit vero!
+              Exercitationem, iusto provident hic ipsum cupiditate
+              accusantium.
+            </p>
+            <a href="#" class="btn btn-primary">Conocer mas</a>
+          </div>
+        </div>
       </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./IMAGES/rumiantes.jpeg"
-              class="card-img-top"
-              alt="Rumiantes"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Rumiantes</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt ad, eveniet libero blanditiis, praesentium nemo rem
-                architecto ratione aspernatur unde dicta fugit vero!
-                Exercitationem, iusto provident hic ipsum cupiditate
-                accusantium.
-              </p>
-              <a href="#" class="btn btn-primary">Conocer mas</a>
-            </div>
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./IMAGES/porcino.jpeg"
+            class="card-img-top"
+            alt="Porcinos"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Porcinos</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              labore ratione suscipit inventore iste molestias nemo odio dolor
+              amet minus et impedit, earum maxime nobis quisquam veritatis,
+              corporis repellat ea!
+            </p>
+            <a href="#" class="btn btn-primary">Conocer mas</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./IMAGES/porcino.jpeg"
-              class="card-img-top"
-              alt="Porcinos"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Porcinos</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                labore ratione suscipit inventore iste molestias nemo odio dolor
-                amet minus et impedit, earum maxime nobis quisquam veritatis,
-                corporis repellat ea!
-              </p>
-              <a href="#" class="btn btn-primary">Conocer mas</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./IMAGES/equino.jpeg"
-              class="card-img-top"
-              alt="Equinos"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Equinos</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-                sint quaerat, perspiciatis sapiente nostrum dolor, ut
-                repellendus impedit magni, corrupti sequi quo. Saepe, atque quos
-                voluptatum distinctio ipsum consequatur rerum?
-              </p>
-              <a href="#" class="btn btn-primary">Conocer mas</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./IMAGES/equino.jpeg"
+            class="card-img-top"
+            alt="Equinos"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Equinos</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+              sint quaerat, perspiciatis sapiente nostrum dolor, ut
+              repellendus impedit magni, corrupti sequi quo. Saepe, atque quos
+              voluptatum distinctio ipsum consequatur rerum?
+            </p>
+            <a href="#" class="btn btn-primary">Conocer mas</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  </main>
+   
     <footer class="footer background-color:$blue">
       <div class="container">
             <div class="row">
@@ -225,7 +231,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
                       <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
                       <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
-                    </svg>s<p >Bio@biofarma.com.ar </p>
+                    </svg><p >Bio@biofarma.com.ar </p>
                   </div>
                 </div>
                 <div class="col">
