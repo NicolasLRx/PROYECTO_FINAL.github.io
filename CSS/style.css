@@ -6,13 +6,7 @@ textarea{
     resize: none;
 }
 
-#form__checkbox input + span{
-    display: none;
-}
-
-#form__checkbox input:checked + span{
-    display: block;
-}
+c
 
 #table__productos{
 font-size: large;
