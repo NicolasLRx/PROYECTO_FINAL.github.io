@@ -1,0 +1,10 @@
+footer {
+  background-color: blue;
+  color: whitesmoke;
+}
+footer .footer__datos {
+  display: flex;
+}
+footer .footer__datos svg {
+  margin-right: 10px;
+}/*# sourceMappingURL=main.css.map */
