@@ -27,10 +27,23 @@ form {
     .btn-primary:hover{
         background-color: green;
         cursor:pointer;
-        /* transform: translateY(15px); */
         transform: translateX(50px);
         transform: scale(1.5);
     }
 
     
 }
+
+div {
+    .nav{
+    align-items: center;
+    background-color: black;
+    }    
+}
+button{
+    .nav-link:hover{
+    align-items: center;
+    background-color: black;
+    }
+}
+
