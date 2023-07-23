@@ -5,6 +5,13 @@ h1 {
     text-align: center;
 }
 
+.carousel-caption{
+   width: auto;
+   background: rgb(8,0,145);
+   background: radial-gradient(circle, rgba(8,0,145,1) 0%, rgba(4,29,119,0) 50%);       
+}
+
+
 form {
     div {
         textarea {
