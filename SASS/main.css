@@ -1,5 +1,4 @@
 h1 {
-  background: rgb(8, 0, 145);
   background: radial-gradient(circle, rgb(8, 0, 145) 0%, rgba(4, 37, 119, 0.8995973389) 27%, rgb(48, 159, 181) 100%);
   color: whitesmoke;
   text-align: center;
@@ -7,10 +6,18 @@ h1 {
 
 .carousel-caption {
   width: auto;
-  background: rgb(8, 0, 145);
   background: radial-gradient(circle, rgb(8, 0, 145) 0%, rgba(4, 29, 119, 0) 50%);
 }
 
+form {
+  border: 3px solid rgb(8, 0, 145);
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+}
 form div textarea {
   resize: none;
 }
@@ -30,6 +37,8 @@ form .btn-primary:hover {
   background-color: green;
   cursor: pointer;
   transform: translateX(50px);
+}
+form .btn-primary:hover:hover {
   transform: scale(1.5);
 }
 
@@ -37,8 +46,7 @@ div .nav {
   align-items: center;
   background-color: black;
 }
-
-button .nav-link:hover {
+div button .nav-link:hover {
   align-items: center;
   background-color: black;
 }

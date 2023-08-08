@@ -1,56 +1,80 @@
+$color-primary: rgb(8, 0, 145);
+$color-secondary: rgba(4, 37, 119, 0.8995973389355743);
+$color-tertiary: rgba(48, 159, 181, 1);
+$color-background: whitesmoke;
+$color-accent: green;
+
+@mixin hover-scale($scale) {
+  &:hover {
+    transform: scale($scale);
+  }
+}
+
 h1 {
-    background: rgb(8, 0, 145);
-    background: radial-gradient(circle, rgba(8, 0, 145, 1) 0%, rgba(4, 37, 119, 0.8995973389355743) 27%, rgba(48, 159, 181, 1) 100%);
-    color: whitesmoke;
-    text-align: center;
+  background: radial-gradient(
+    circle,
+    $color-primary 0%,
+    $color-secondary 27%,
+    $color-tertiary 100%
+  );
+  color: $color-background;
+  text-align: center;
 }
 
-.carousel-caption{
-   width: auto;
-   background: rgb(8,0,145);
-   background: radial-gradient(circle, rgba(8,0,145,1) 0%, rgba(4,29,119,0) 50%);       
+.carousel-caption {
+  width: auto;
+  background: radial-gradient(
+    circle,
+    $color-primary 0%,
+    rgba(4, 29, 119, 0) 50%
+  );
 }
-
 
 form {
+    border: 3px solid $color-primary;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
     div {
-        textarea {
-            resize: none;
-        }
-        label{
-            width: 150px;
-        }
-        .form__input__text{
-            width: 250px;
-        }
-    
-        .form__input__text:focus {
-            width: 90vh;
-            margin-left: 15px;
-           font-size: 30px;
-           transform:scale(1);
-        }
+        
+    textarea {
+      resize: none;
     }
-    .btn-primary:hover{
-        background-color: green;
-        cursor:pointer;
-        transform: translateX(50px);
-        transform: scale(1.5);
+    label {
+      width: 150px;
     }
-
-    
+    .form__input__text {
+      width: 250px;
+      &:focus {
+        width: 90vh;
+        margin-left: 15px;
+        font-size: 30px;
+        transform: scale(1);
+      }
+    }
+  }
+  .btn-primary {
+    &:hover {
+      background-color: $color-accent;
+      cursor: pointer;
+      @include hover-scale(1.5);
+      transform: translateX(50px);
+    }
+  }
 }
 
 div {
-    .nav{
+  .nav {
     align-items: center;
     background-color: black;
-    }    
-}
-button{
-    .nav-link:hover{
-    align-items: center;
-    background-color: black;
+  }
+  button {
+    .nav-link:hover {
+      align-items: center;
+      background-color: black;
     }
+  }
 }
-
